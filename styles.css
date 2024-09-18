@@ -8,3 +8,13 @@ header{
     margin-right: 4%;
     
 }
+
+h1{
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+h2{
+  margin-left: 5%;
+  color: darkred;
+}
