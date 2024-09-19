@@ -1,7 +1,8 @@
+html {cursor: url("cursorm.png") , auto;}
+
 body{
 	background-color: #CCE3DE;
 	font-family: system-ui, Helvetica, sans-serif;
-	cursor: url("cursorm.png") , auto;
 }
 
 .nav-menu{
