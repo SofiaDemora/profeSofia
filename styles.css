@@ -1,7 +1,32 @@
 body{
-  background-color: #CCE3DE;
-  font-family: system-ui, Helvetica, sans-erif;
+	background-color: #CCE3DE;
+	font-family: system-ui, Helvetica, sans-serif;
 }
+
+.nav-menu{
+    position: sticky;
+  	top: 0;
+	list-style-type: none; /*elimina los numerados.*/
+	padding: 0;			   /*distanciamiento a la izq.*/
+	display: flex;         /*alinea horizontalmente.*/
+    background-color: #b2d5cd;
+    margin-left: 4%;
+    margin-right: 4%;
+    z-index: 1000;
+}
+
+.nav-menu li{
+    margin-left: 3%;       /*Separación entre elementos*/
+}
+
+.nav-menu a{
+    text-decoration: none; /*elimina la línea debajo*/
+}
+
+.nav-menu a:hover {
+    color: #007BFF;        /*cambia el color al pasar el ratón*/
+}
+
 header{
     background: #b2d5cd;
     margin-left: 4%;
@@ -10,11 +35,11 @@ header{
 }
 
 h1{
-  margin-left: 1%;
-  margin-right: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
 }
 
 h2{
-  margin-left: 5%;
-  color: darkred;
+	margin-left: 5%;
+	color: darkred;
 }
