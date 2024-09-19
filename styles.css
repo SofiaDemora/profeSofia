@@ -4,7 +4,6 @@ html:active {cursor: url("cursoralt.png") , auto;}
 body{
 	background-color: #CCE3DE;
 	font-family: system-ui, Helvetica, sans-serif;
-  cursor: url();
 }
 
 .nav-menu{
@@ -52,20 +51,52 @@ h2{
 	color: darkred;
     font-size: small;
     text-align: center;
+    margin:10%;
 }
 
 h3{
     font-size: small;
-    text-align: center;
+    text-align: center
+}
+h4{
+    font-size: smaller;
+    text-align: left;
 }
 
+.container{
+    margin: 5%;
+}
+.article{
+    margin: 5%;
+    font-size:large;
+}
+
+.unidad1{
+    font-size: smaller;
+  	list-style-type: none; /*elimina los numerados.*/
+	padding: 0;			   /*distanciamiento a la izq.*/
+}
+
+.unidad1 li{
+    margin-left: 3%;       /*Separación entre elementos*/
+}
+
+.unidad1 a{
+    text-decoration: none; /*elimina la línea debajo*/
+    color: #3F7368;
+}
+
+.unidad1 a:hover {
+    color: #5EA697;        /*cambia el color al pasar el ratón*/
+    cursor: url("cursoralt.png") , auto;
+}
 #txt{
     font-size: small;
     padding: 8px;
 }
 
 #header{
-  height:20%;
+    height:20%;
 }
 
 aside {
