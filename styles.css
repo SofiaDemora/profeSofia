@@ -1,7 +1,7 @@
 body{
 	background-color: #CCE3DE;
 	font-family: system-ui, Helvetica, sans-serif;
-	cursor: href="cursor.webp", auto;
+	cursor: url("./cursor2.png") , auto;
 }
 
 .nav-menu{
