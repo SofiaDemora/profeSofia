@@ -4,12 +4,13 @@ html:active {cursor: url("cursoralt.png") , auto;}
 body{
 	background-color: #CCE3DE;
 	font-family: system-ui, Helvetica, sans-serif;
+    margin-right:30%;
+    margin-left:4%;
 }
 
 .nav-menu{
     position: fixed;
     width: 90%;
-    margin-left:4%;
   	top: 0;
 	list-style-type: none; /*elimina los numerados.*/
 	padding: 0;			   /*distanciamiento a la izq.*/
@@ -34,8 +35,7 @@ body{
 
 header{
     background: #b2d5cd;
-    margin-left: 4%;
-    margin-right: 4%;
+    right: 4%;
     margin-top: 50px;
     
 }
@@ -99,7 +99,9 @@ h4{
 }
 
 aside {
-    margin:0;
+    position:fixed;
+    top: 240px;
+    right:4%;
     float: right;
     background-color: #b2d5cd;
     width: 25%;
