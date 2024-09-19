@@ -26,6 +26,7 @@ body{
 .nav-menu a{
     text-decoration: none; /*elimina la línea debajo*/
     color: #3F7368;
+    font-size: 100%;
 }
 
 .nav-menu a:hover {
@@ -101,10 +102,16 @@ h4{
 aside {
     position:fixed;
     top: 240px;
-    right:4%;
+    right:6%;
     float: right;
     background-color: #b2d5cd;
-    width: 25%;
+    width: 23%;
     height: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.chp{
+  top: 100px;
+  left: 35%;
+  
 }
