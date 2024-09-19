@@ -1,4 +1,13 @@
-html {cursor: url("cursorm.png") , auto;}
+html {cursor: url("cursorm.png") , auto;
+    /* The image is from unsplash by David van Dijk */
+    /* set an image such that it doesn't repeat stay center */
+    background: url(./img/wall.jpg) no-repeat center center fixed;
+    /* Resize the background image to cover the entire container */
+    background-size: cover;
+
+    /*setting the root font-size to calculate rem based off of this*/
+    font-size: 10px;
+    text-align: center;}
 html:active {cursor: url("cursoralt.png") , auto;}
 
 body{
@@ -26,7 +35,7 @@ body{
 .nav-menu a{
     text-decoration: none; /*elimina la línea debajo*/
     color: #3F7368;
-    font-size: 100%;
+    font-size: 170%;
 }
 
 .nav-menu a:hover {
@@ -75,6 +84,7 @@ h4{
     font-size: smaller;
   	list-style-type: none; /*elimina los numerados.*/
 	padding: 0;			   /*distanciamiento a la izq.*/
+  text-align: left;
 }
 
 .unidad1 li{
@@ -114,4 +124,65 @@ aside {
   top: 100px;
   left: 35%;
   
+}
+
+.clock {
+    position: fixed;          /* Mantener fijo */
+    top: 40px;               /* Espacio desde la parte superior */
+    right: 7%;             /* Espacio desde la derecha */
+    /*give it a shape; from square to round*/
+    height: 15rem;
+    width: 15rem;
+    border: 10px solid rgba(209, 231, 224, 0.904);
+    border-radius: 50%;
+
+    /*keep the hands away from border*/
+    padding: 4px;
+
+    /*set the shadow inside*/
+    box-shadow: inset 0 0 10px black,
+        inset 0 0 10px rgb(235, 233, 233);
+
+}
+
+.clock-face {
+    height: 50%;
+    width: 50%;
+    transform: translateY(-3px);
+
+    position: relative;
+}
+
+.hand {
+    /*give the hands some shape*/
+    background-color: rgba(15, 80, 69, 0.712);
+    height: 3px;
+    width: 75%;
+
+    /*relating to the position*/
+    position: absolute;
+    top: 130px;
+    left: 20px;
+
+    /*to move*/
+    transform: rotate(90deg);
+    /*keep everything attached to the right point or middle point*/
+    transform-origin: 100%;
+    /*transition & speeding the effect*/
+    transition: all 0.06s;
+    transition-timing-function: cubic-bezier(0.07, 3.65, 0.76, 0.4);
+}
+
+audio {
+    /*positioning the audio player*/
+    align-self: flex-end;
+    margin-left: -100px;
+}
+
+/*after 444 degree the second hand behaves weirdly; to stop that- (more on that in script.js file)*/
+.notransition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
 }
