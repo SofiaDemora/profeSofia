@@ -104,6 +104,7 @@ h4{
 #txt{
     font-size: small;
     padding: 8px;
+    text-align:left;
 }
 
 #header{
@@ -112,7 +113,7 @@ h4{
 
 aside {
     position:fixed;
-    top: 240px;
+    top: 250px;
     right:6%;
     float: right;
     background-color: #b2d5cd;
@@ -176,8 +177,8 @@ aside {
 
 audio {
     /*positioning the audio player*/
-    align-self: flex-end;
-    margin-left: -100px;
+    position: fixed;
+    right: 6%;
 }
 
 /*after 444 degree the second hand behaves weirdly; to stop that- (more on that in script.js file)*/
