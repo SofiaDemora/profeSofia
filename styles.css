@@ -1,127 +1,78 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
+html {cursor: url("cursorm.png") , auto;}
+html:active {cursor: url("cursoralt.png") , auto;}
 
-    <meta charset="UTF-8">
-    <title> ¡Bienvenidos! </title>
+body{
+	background-color: #CCE3DE;
+	font-family: system-ui, Helvetica, sans-serif;
+  cursor: url();
+}
 
-    <link rel="stylesheet" href="styles.css">
+.nav-menu{
+    position: fixed;
+    width: 90%;
+    margin-left:4%;
+  	top: 0;
+	list-style-type: none; /*elimina los numerados.*/
+	padding: 0;			   /*distanciamiento a la izq.*/
+	display: flex;         /*alinea horizontalmente.*/
+    background-color: #b2d5cd;
+    z-index: 1000;
+}
+
+.nav-menu li{
+    margin-left: 3%;       /*Separación entre elementos*/
+}
+
+.nav-menu a{
+    text-decoration: none; /*elimina la línea debajo*/
+    color: #3F7368;
+}
+
+.nav-menu a:hover {
+    color: #5EA697;        /*cambia el color al pasar el ratón*/
+    cursor: url("cursoralt.png") , auto;
+}
+
+header{
+    background: #b2d5cd;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 50px;
     
-    <link rel="icon" href="miniatura.ico" type="image/x-icon">
-    
-</head>
+}
 
-<body>
-  
-  <nav>
-        <ul class="nav-menu">
-            <li><a href="#nav-menu">Inicio</a></li>
-            <li><a href="#Octavo año">Octavo año</a></li>
-            <li><a href="#section3">Noveno año</a></li>
-            <li><a href="#section3">Material extra</a></li>
-        </ul>
-  </nav>
-    <header>
-        <h1> Una página para acercar el contenido, las herramientas, y la computación a los alumnos.</h1>
-        <h2> Estamos en construcción.</h2>
-      	
-    </header>
+h1{
+	margin-left: 1%;
+	margin-right: 1%;
+    font-size: x-large;
+    text-align: center;
+}
 
-    
-    
-    <div id ="container">
+h2{
+	color: darkred;
+    font-size: small;
+    text-align: center;
+}
 
-        
-            <section id="Octavo año">
-                <article class="article">
-                    <h4>Unidad 1: Alfabetización y Ciudadanía Digital. </h4>
-                    <p>. <br>
-                      <ul class="unidad1">
-                          <li><a href="#nav-menu">Actividad 1</a></li>
-                          <li><a href="#Octavo año">Actividad 2</a></li>
-                          <li><a href="#section3">Actividad 3</a></li>
-                          <li><a href="#section3">Actividad 4</a></li>
-                          <li><a href="#section3">Videos de referencia</a></li>
-                      </ul>
-                    </p>
+h3{
+    font-size: small;
+    text-align: center;
+}
 
-                </article>
-                <article class="article">
-                    <h4>Unidad 2: Procesamiento de Información.</h4>
-                    <p>. <br>
-                    </p>
-                </article> 
-                <article class="article">
-                    <h4>Unidad 3: Arquitectura de Dispositivos, Redes e Internet. </h4>
-                    <p>. <br>
-                    </p>
+#txt{
+    font-size: small;
+    padding: 8px;
+}
 
-                </article>
-                <article class="article">
-                    <h4>Unidad 4: Algoritmia,programación, robótica y problemas computacionales. </h4>
-                    <p>. <br>
-                    </p>
+#header{
+  height:20%;
+}
 
-                </article>
-            </section>
-            
-            <section id="Noveno año">
-                <article class="article">
-                    <h4>Unidad 1: Alfabetización y Ciudadanía Digital. </h4>
-                    <p>. <br>
-                      <ul class="unidad1">
-                          <li><a href="./actividadesNoveno/1- BrechaDigital..pdf">Actividad 1</a></li>
-                          <li><a href="./actividadesNoveno/BrechaDigitalTarea.pdf">Actividad 2</a></li>
-                          <li><a href="./actividadesNoveno/BrechaDigitalTarea1.pdf">Actividad 3</a></li>
-                          <li><a href="./actividadesNoveno/9- Resumen REDES INALÁMBRICAS.pdf">Actividad 4</a></li>
-                      </ul>
-                    </p>
-
-                </article>
-                <article class="article">
-                    <h4>Unidad 2: Procesamiento de Información.</h4>
-                    <p>. <br>
-                    </p>
-                </article> 
-                <article class="article">
-                    <h4>Unidad 3: Arquitectura de Dispositivos, Redes e Internet. </h4>
-                    <p>. <br>
-                    </p>
-
-                </article>
-                <article class="article">
-                    <h4>Unidad 4: Algoritmia,programación, robótica y problemas computacionales. </h4>
-                    <p>. <br>
-                    </p>
-
-                </article>
-            </section>
-
-      <div id="foto">
-      </div>   
-    </div>
-    <div id ="bot">
-    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-    <df-messenger
-      intent="WELCOME"
-      chat-title="CodigoLoro"
-      agent-id="b0476f16-761c-45c5-af25-9cbdaacfacd3"
-      language-code="es"
-        width: 70% !important;
-        height: auto !important;
-    ></df-messenger>
-    </div>
-
-    <aside>
-        <h3> ¿Sabías que también puedes crear tu propia página web?</h3>
-        <p id="txt">mucho <br>
-      k<br>
-      k<br>
-      k<br>
-      k<br>
-      k<br>
-      k</p>
-    </aside>
-    
-</body>
-</html>
+aside {
+    margin:0;
+    float: right;
+    background-color: #b2d5cd;
+    width: 25%;
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
