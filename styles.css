@@ -6,7 +6,7 @@ html {cursor: url("cursorm.png") , auto;
     background-size: cover;
 
     /*setting the root font-size to calculate rem based off of this*/
-    font-size: 10px;
+    font-size: xx-small;
     text-align: center;}
 html:active {cursor: url("cursoralt.png") , auto;}
 
@@ -48,6 +48,7 @@ header{
     right: 4%;
     margin-top: 50px;
     border-bottom: 10px solid white;
+    font-size:large;
     
 }
 
