@@ -160,7 +160,7 @@ aside {
     width: 75%;
 
     /*relating to the position*/
-    position: absolute;
+    position: fixed;
     top: 130px;
     left: 20px;
 
