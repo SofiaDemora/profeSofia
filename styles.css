@@ -35,7 +35,7 @@ body{
 .nav-menu a{
     text-decoration: none; /*elimina la línea debajo*/
     color: #3F7368;
-    font-size: 170%;
+    font-size: medium;
 }
 
 .nav-menu a:hover {
