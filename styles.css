@@ -48,6 +48,7 @@ body{
         flex-direction: column; /* Cambia a vertical */
         text-align: left;
         width: 100%;            /* Ocupa todo el ancho */
+        font-size:large;
     }
     header{
         background: #b2d5cd;
