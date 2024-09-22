@@ -20,6 +20,15 @@ body{
 container{
 
 }
+details summary{
+    line-height:0;
+}
+details {
+    line-height:1.2;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
 
 .nav-menu{
     position: fixed;
@@ -89,6 +98,9 @@ h3{
 .h44{
     font-size: small;
     text-align: left;
+    line-height:1.1;
+    white-space: normal;
+    overflow-wrap: break-word;
 }
 
 .container{
