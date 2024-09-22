@@ -17,17 +17,21 @@ body{
     margin-left:4%;
 }
 
+container{
+
+}
+
 .nav-menu{
     position: fixed;
-    height:5%;
+    height:30px;
     width: 90%;
   	top: 0;
 	list-style-type: none; /*elimina los numerados.*/
 	padding: 0;			   /*distanciamiento a la izq.*/
 	display: flex;         /*alinea horizontalmente.*/
-    justify-content: space-around; /* distribuye los elementos uniformemente */
+    justify-content: space-around; /* distribuye los elementos uniformemente*/
+    font-size: medium;
     background-color: #b2d5cd;
-    z-index: 1000;
 }
 
 .nav-menu li{
@@ -37,7 +41,6 @@ body{
 .nav-menu a{
     text-decoration: none; /*elimina la línea debajo*/
     color: #3F7368;
-    font-size: 180%;
 }
 
 .nav-menu a:hover {
@@ -145,7 +148,7 @@ aside {
 
 .clock {
     position: fixed;          /* Mantener fijo */
-    top: 8%;               /* Espacio desde la parte superior */
+    top: 50px;               /* Espacio desde la parte superior */
     right: 7%;             /* Espacio desde la derecha */
     /*give it a shape; from square to round*/
     height: 15rem;
