@@ -10,6 +10,12 @@ html {cursor: url("cursorm.png") , auto;
     text-align: center;}
 html:active {cursor: url("cursoralt.png") , auto;}
 
+body{
+	background-color: #CCE3DE;
+	font-family: system-ui, Helvetica, sans-serif;
+    margin-right:30%;
+    margin-left:4%;
+}
 
 // Obtén todos los enlaces que controlan el submenú
     const menuItems = document.querySelectorAll('.submenu-toggle');
@@ -28,16 +34,6 @@ html:active {cursor: url("cursoralt.png") , auto;}
             }
         });
     });
-
-
-
-body{
-	background-color: #CCE3DE;
-	font-family: system-ui, Helvetica, sans-serif;
-    margin-right:30%;
-    margin-left:4%;
-}
-
 container{
 
 }
