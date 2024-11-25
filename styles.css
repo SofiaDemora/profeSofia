@@ -20,14 +20,15 @@ body{
 
         /* Submenú inicialmente oculto */
         .submenu {
-            display: none;
-			list-style-type: none; /* Esto elimina el círculo */
-            background-color: #b2d5cd;
-			padding: 2px;
-			padding-left: 0;
-			position: relative;
-			left: 25%;
-			white-space: nowrap;
+            	display: none;
+		list-style-type: none; /* Esto elimina el círculo */
+            	background-color: #b2d5cd;
+		padding: 2px;
+		padding-left: 0;
+		position: relative;
+		left: 25%;
+		white-space: nowrap;
+		text-align: left;
         }
 
 
