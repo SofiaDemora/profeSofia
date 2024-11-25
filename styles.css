@@ -22,6 +22,7 @@ body{
         .submenu {
             display: none;
             margin-left: 20px;
+            background-color: #f0f0f0;
         }
 
         /* Estilo adicional para mejorar la visualización */
