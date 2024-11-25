@@ -23,7 +23,6 @@ body{
             display: none;
 			list-style-type: none; /* Esto elimina el círculo */
             background-color: #b2d5cd;
-			border:1px solid black; 
 			padding: 2px;
 			padding-left: 0;
 			position: relative;
