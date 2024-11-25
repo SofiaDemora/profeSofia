@@ -17,6 +17,23 @@ body{
     margin-left:4%;
 }
 
+
+        /* Submenú inicialmente oculto */
+        .submenu {
+            display: none;
+            margin-left: 20px;
+        }
+
+        /* Estilo adicional para mejorar la visualización */
+        li a:hover {
+            background-color: #f0f0f0;
+        }
+
+        label {
+            cursor: pointer;
+            font-weight: bold;
+        }
+
 container{
 
 }
@@ -63,10 +80,14 @@ details {
         width: 100%;            /* Ocupa todo el ancho */
         font-size:large;
     }
-    header{
+
+  
+  
+        
+header{
         margin-top: 100px;
         font-size:large;
-    }
+}
   
 }
 header{
