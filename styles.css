@@ -25,10 +25,6 @@ body{
             background-color: #f0f0f0;
         }
 
-        /* Estilo adicional para mejorar la visualización */
-        li a:hover {
-            background-color: #f0f0f0;
-        }
 
         label {
             cursor: pointer;
