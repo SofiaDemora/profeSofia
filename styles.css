@@ -11,31 +11,33 @@ html {cursor: url("cursorm.png") , auto;
 html:active {cursor: url("cursoralt.png") , auto;}
 
 body{
-	background-color: #CCE3DE;
-	font-family: system-ui, Helvetica, sans-serif;
+    background-color: #CCE3DE;
+    font-family: system-ui, Helvetica, sans-serif;
     margin-right:30%;
     margin-left:4%;
 }
 
 
-        /* Submenú inicialmente oculto */
-        .submenu {
-            	display: none;
-		list-style-type: none; /* Esto elimina el círculo */
-            	background-color: #b2d5cd;
-		padding: 2px;
-		padding-left: 0;
-		position: relative;
-		left: 25%;
-		white-space: nowrap;
-		text-align: left;
-        }
+/* Submenú inicialmente oculto */
+.submenu {
+    display: none;
+    list-style-type: none; /* Esto elimina el círculo */
+    background-color: #b2d5cd;
+    padding: 2px;
+    padding-left: 0;
+    position: relative;
+    left: 25%;
+    white-space: nowrap;
+    text-align: left;
+}
+.submenu li{ 
+  border: 1px solid #CCE3DE;    
+}
 
-
-        label {
-            cursor: pointer;
-            font-weight: bold;
-        }
+label {
+    cursor: pointer;
+    font-weight: bold;
+}
 
 
 details summary{
@@ -52,10 +54,10 @@ details {
     position: fixed;
     height:30px;
     width: 90%;
-  	top: 0;
-	list-style-type: none; /*elimina los numerados.*/
-	padding: 0;			   /*distanciamiento a la izq.*/
-	display: flex;         /*alinea horizontalmente.*/
+    top: 0;
+    list-style-type: none; /*elimina los numerados.*/
+    padding: 0;			   /*distanciamiento a la izq.*/
+    display: flex;         /*alinea horizontalmente.*/
     justify-content: space-around; /* distribuye los elementos uniformemente*/
     font-size: medium;
     background-color: #b2d5cd;
@@ -81,14 +83,11 @@ details {
         width: 100%;            /* Ocupa todo el ancho */
         font-size:large;
     }
-
-  
-  
-        
-header{
-        margin-top: 100px;
-        font-size:large;
-}
+    
+	header{
+	        margin-top: 100px;
+	        font-size:large;
+	}
   
 }
 header{
