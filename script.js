@@ -1,18 +1,22 @@
+
 // Obtén todos los enlaces que controlan el submenú
     const menuItems = document.querySelectorAll('.submenu-toggle');
 
-    // Itera sobre ellos y agrega el evento de clic
+    // Itera sobre ellos y agrega el evento de pasar por encima.
     menuItems.forEach(item => {
-        item.addEventListener('click', function() {
+        item.addEventListener('mouseover', function() {
             // Selecciona el submenú asociado a este ítem
             const submenu = this.nextElementSibling;
 
-            // Alterna la visibilidad del submenú
-            if (submenu.style.display === "block") {
-                submenu.style.display = "none";
-            } else {
-                submenu.style.display = "block";
-            }
+            submenu.style.display = "block";
+    });
+
+    item.addEventListener('mouseout', function() {
+        // Selecciona el submenú asociado a este ítem
+        const submenu = this.nextElementSibling;
+
+        // Oculta el submenú
+        submenu.style.display = "none";
         });
     });
 
