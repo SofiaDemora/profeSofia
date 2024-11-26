@@ -23,19 +23,23 @@ body{
     display: none;
     list-style-type: none; /* Esto elimina el círculo */
     background-color: #b2d5cd;
-    padding-left: 0;
     position: relative;
+    padding: 0px;
     left: 25%;
-    white-space: nowrap;
+    white-space: nowrap ;
     text-align: left;
+    margin-top: 3.7%;
+    min-width: 110%;
 }
+
 .submenu li{ 
     border: 1px solid #CCE3DE;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     box-sizing: border-box;
+	
 }
 
 label {
